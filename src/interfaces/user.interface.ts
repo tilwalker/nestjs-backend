@@ -1,6 +1,7 @@
-export interface User {
+export interface IUser {
+    id: string;
     firstName: string;
-    lastname: string;
+    lastName: string;
     isActive: boolean;
     username: string;
     password: string;

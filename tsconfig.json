@@ -12,7 +12,9 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
-      "@entities": ["src/models"]
+      "@entities": ["src/models"],
+      "@interfaces": ["src/interfaces"],
+      "@common": ["src/common"]
     }
   }
 }
